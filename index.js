@@ -93,7 +93,7 @@ bot.on('message', async message => {
                 .setThumbnail(`https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/google/241/pleading-face_1f97a.png`)
                 .setColor("#ff0000")
                 .setTimestamp()
-                .setFooter(`Gemaakt door: Dani van Bussel | Aantal server leden:`, message.guild.memberCount, 'https://lh3.googleusercontent.com/-JubvaieWRSc/XoeJgjnRh8I/AAAAAAAAF_E/0zQNDI2_1AEYjdrYXBegO_IAcd_G-LE2QCEwYBhgL/w140-h139-p/20180712_091048.jpg');
+                .setFooter(`Gemaakt door: Dani van Bussel`, 'https://lh3.googleusercontent.com/-JubvaieWRSc/XoeJgjnRh8I/AAAAAAAAF_E/0zQNDI2_1AEYjdrYXBegO_IAcd_G-LE2QCEwYBhgL/w140-h139-p/20180712_091048.jpg');
 
         channel.send(joinEmbed);
 
@@ -101,7 +101,7 @@ bot.on('message', async message => {
 
 
 
- 
+
 
 
 
