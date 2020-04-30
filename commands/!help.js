@@ -12,9 +12,9 @@ module.exports.run = async(bot, message, args) => {
                     .setFooter('Gemaakt door: Dani van Bussel', 'https://lh3.googleusercontent.com/-JubvaieWRSc/XoeJgjnRh8I/AAAAAAAAF_E/0zQNDI2_1AEYjdrYXBegO_IAcd_G-LE2QCEwYBhgL/w140-h139-p/20180712_091048.jpg');
 
             return message.channel.send(botEmbed);
-    }
+    
 
-
+}
 
 module.exports.help = { 
     name: "help"
